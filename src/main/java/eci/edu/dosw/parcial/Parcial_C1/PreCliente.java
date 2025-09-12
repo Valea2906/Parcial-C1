@@ -8,16 +8,16 @@ public class PreCliente {
     private Canal canalElegido;
     private int critico;
 
-    public PreCliente(Canal canalElegido, boolean critico){
+    public PreCliente(Canal canalElegido, int critico) {
         this.canalElegido = canalElegido;
-        this.critico = critico
+        this.critico = critico;
     }
 
-    public Canal getCanalElegido(){
-        return canalElegido
+    public Canal getCanalElegido() {
+        return canalElegido;
     }
 
-    public int isCritico() {
+    public int  getCritico() {
         return critico;
     }
 }

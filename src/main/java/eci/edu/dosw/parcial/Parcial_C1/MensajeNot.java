@@ -4,14 +4,13 @@ public class MensajeNot {
     private String usuario;
     private String asunto;
     private String cuerpo;
-    private int  criticidad;
+    private int critico;
 
-    public  MensajeNot(String  usuario, String asunto, String cuerpo, int criticidad) {
+    public MensajeNot(String usuario, String asunto, String cuerpo, int critico) {
         this.usuario = usuario;
         this.asunto = asunto;
         this.cuerpo = cuerpo;
-        this.criticidad = criticidad;
-
+        this.critico = critico;
     }
 
     public String getUsuario() {
@@ -22,11 +21,11 @@ public class MensajeNot {
         return asunto;
     }
 
-    public  String getCuerpo() {
+    public String getCuerpo() {
         return cuerpo;
     }
 
-    public int getCriticidad() {
-        return criticidad;
+    public int getCritico() {
+        return critico;
     }
 }
