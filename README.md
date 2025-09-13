@@ -37,3 +37,5 @@
 ![img_4.png](docs%2Fimagenes%2Fimg_4.png)
 ![img_5.png](docs%2Fimagenes%2Fimg_5.png)
 
+## Jacoco
+![img_6.png](docs%2Fimagenes%2Fimg_6.png)
