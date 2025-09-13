@@ -28,4 +28,20 @@ class PreClienteTest {
         assertEquals(Canal.EMAIL, preCliente.getCanalElegido());
         assertEquals(9, preCliente.getCritico());
     }
+    @Test
+    void testPreClienteValores() {
+        PreCliente cliente = new PreCliente(Canal.SMS, 7);
+
+        assertEquals(Canal.SMS, cliente.getCanalElegido());
+        assertEquals(7, cliente.getCritico());
+    }
+
+    @Test
+    void testPreClienteEmailCritico() {
+        PreCliente cliente = new PreCliente(Canal.EMAIL, 1);
+
+        assertEquals(Canal.EMAIL, cliente.getCanalElegido());
+        assertEquals(1, cliente.getCritico());
+    }
+
 }

@@ -32,5 +32,16 @@ class EcciNotificacionTest {
             EcciNotificacion.crearNotificacion(null);
         });
     }
+    @Test
+    void testCrearNotificacionSMSNoEsNull() {
+        Notificacion notificacion = EcciNotificacion.crearNotificacion(Canal.SMS);
+        assertNotNull(notificacion);
+    }
+
+    @Test
+    void testCrearNotificacionMovilNoEsNull() {
+        Notificacion notificacion = EcciNotificacion.crearNotificacion(Canal.MOVIL);
+        assertNotNull(notificacion);
+    }
 
 }
